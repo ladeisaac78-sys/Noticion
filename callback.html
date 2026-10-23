@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conectando · Noticion!</title>
+<link rel="stylesheet" href="style.css">
+<script>
+  // TikTok exige un redirect https fijo; la app corre en la PC del usuario.
+  // Esta página solo reenvía code/state a la app local. No guarda ni envía nada a otro lado.
+  if (location.search) location.replace("http://localhost:8501/" + location.search);
+</script>
+</head>
+<body>
+<main>
+  <h1>Conectando con Noticion!…</h1>
+  <p>Si no regresas a la app en unos segundos, asegúrate de que Noticion! esté abierto en esta PC (<code>http://localhost:8501</code>) y vuelve a intentar.</p>
+  <p><a href="index.html">← Noticion!</a></p>
+</main>
+</body>
+</html>
